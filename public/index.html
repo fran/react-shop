@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="%PUBLIC_URL%/favicon.ico" rel="shortcut icon" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#000000" name="theme-color" />
+    <link href="%PUBLIC_URL%/manifest.json" rel="manifest" />
+    <title>Demo</title>
+    <style>
+      body { width: 60%; margin:0 auto; }
+      div { box-sizing: border-box; padding: 10px; }
+      .header { width:100%; border: 1px solid black; min-height: 100px; }
+      #cart, #login, #login2 { float: right; }
+      .sidebar { width:30%; float: left; border: 1px solid black; min-height: 500px; }
+      .content { width:70%; float: left; border: 1px solid black; min-height: 500px; }
+    </style>
+  </head>
+  <body id="body">
+    <div id="root">
+      <div class="header" id="header">
+        Head
+        <div id="login">
+          Login
+        </div>
+        <div id="login2">
+          Login
+        </div>
+        <div id="cart">
+          0 Items
+        </div>
+      </div>
+      <div class="sidebar">
+        Side
+      </div>
+      <div class="content">
+        Content
+        <div id="product">
+          Add to cart
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
